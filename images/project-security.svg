@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Security notes preview</title>
+  <desc id="desc">Polished terminal-style preview for a security notes project.</desc>
+  <rect width="960" height="600" fill="#101112"/>
+  <rect x="84" y="76" width="792" height="448" rx="28" fill="#181b1d" stroke="#343b3f" stroke-width="4"/>
+  <rect x="126" y="122" width="708" height="64" rx="18" fill="#202527"/>
+  <circle cx="168" cy="154" r="10" fill="#fb7185"/>
+  <circle cx="204" cy="154" r="10" fill="#f59e0b"/>
+  <circle cx="240" cy="154" r="10" fill="#34d399"/>
+  <path d="M142 250h180M142 306h314M142 362h238M142 418h396" stroke="#f4f0e8" stroke-width="18" stroke-linecap="round" opacity=".72"/>
+  <path d="M142 250h78M142 362h118" stroke="#34d399" stroke-width="18" stroke-linecap="round"/>
+  <path d="M616 246l112 50v76c0 70-44 116-112 148-68-32-112-78-112-148v-76l112-50z" fill="#202527" stroke="#38bdf8" stroke-width="5"/>
+  <rect x="574" y="338" width="84" height="72" rx="16" fill="#101112" stroke="#343b3f" stroke-width="4"/>
+  <path d="M584 338v-28c0-26 16-44 32-44s32 18 32 44v28" fill="none" stroke="#f59e0b" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="616" cy="374" r="12" fill="#34d399"/>
+</svg>
