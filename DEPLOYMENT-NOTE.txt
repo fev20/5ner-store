@@ -1,6 +1,7 @@
 5ner.store
-Project portfolio
-Template ID: project
+Soft Pastel theme
+Theme ID: pastel
+Layouts: basic, project, minimal, gallery
 
 Upload every file in this folder to the web root for this domain.
-If your host supports one project with multiple domains, you can also use one shared build.
+Each site includes four portfolio layouts. Use #/basic, #/project, #/minimal, or #/gallery.
