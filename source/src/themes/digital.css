@@ -1,4 +1,0 @@
-.theme-digital{--color-bg:#101112;--color-bg-soft:#16191b;--color-surface:#181b1d;--color-surface-strong:#202527;--color-text:#f4f0e8;--color-muted:#a7a39a;--color-border:#f4f0e821;--color-primary:#34d399;--color-secondary:#38bdf8;--color-accent:#f59e0b;--color-danger:#fb7185;--shadow-card:0 30px 90px #00000057;--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark}
-.theme-digital:before{background:linear-gradient(#f4f0e809 1px, transparent 1px), linear-gradient(90deg, #f4f0e809 1px, transparent 1px), var(--color-bg);background-size:42px 42px}
-.theme-digital:after{background:repeating-linear-gradient(0deg,#34d3990b 0 1px,#0000 1px 5px)}
-.theme-digital .home-content h1{color:var(--color-text);opacity:.92}
