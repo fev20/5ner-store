@@ -1,5 +1,5 @@
 import { spawnSync } from 'node:child_process';
-import { cp, mkdir, rm, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readdir, rm, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import process from 'node:process';
 import { sites } from './site-config.mjs';
@@ -26,6 +26,12 @@ const note = `${site.domain}\n${site.themeName} theme\nTheme ID: ${site.theme}\n
 await writeFile(resolve(outputDirectory, 'CNAME'), `${site.domain}\n`, 'utf8');
 await writeFile(resolve(outputDirectory, 'DEPLOYMENT-NOTE.txt'), note, 'utf8');
 // The repository root owns these URL-stable assets; copy them into each standalone deploy.
-await cp(resolve('images'), resolve(outputDirectory, 'images'), { recursive: true });
-await cp(resolve('certificates'), resolve(outputDirectory, 'certificates'), { recursive: true });
+async function copyDirectory(name) {
+  const from = resolve(name);
+  const to = resolve(outputDirectory, name);
+  await mkdir(to, { recursive: true });
+  for (const file of await readdir(from)) await cp(resolve(from, file), resolve(to, file), { recursive: true, force: true });
+}
+await copyDirectory('images');
+await copyDirectory('certificates');
 console.log(`Built ${siteId} -> ${outputDirectory}`);
