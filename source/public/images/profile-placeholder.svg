@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio visual</title>
+  <desc id="desc">Dark professional portfolio placeholder with code interface elements.</desc>
+  <rect width="900" height="900" fill="#101112"/>
+  <path d="M0 146h900M0 292h900M0 438h900M0 584h900M0 730h900M146 0v900M292 0v900M438 0v900M584 0v900M730 0v900" stroke="#24292c" stroke-width="2"/>
+  <rect x="120" y="150" width="660" height="600" rx="28" fill="#181b1d" stroke="#343b3f" stroke-width="4"/>
+  <rect x="160" y="196" width="580" height="66" rx="16" fill="#202527"/>
+  <circle cx="202" cy="229" r="10" fill="#fb7185"/>
+  <circle cx="238" cy="229" r="10" fill="#f59e0b"/>
+  <circle cx="274" cy="229" r="10" fill="#34d399"/>
+  <path d="M188 336h164M188 392h360M188 448h276M188 504h438M188 560h222" stroke="#f4f0e8" stroke-width="20" stroke-linecap="round" opacity=".82"/>
+  <path d="M188 336h92M188 448h118M188 560h168" stroke="#34d399" stroke-width="20" stroke-linecap="round"/>
+  <path d="M602 346l72 72-72 72M494 490l-72-72 72-72" fill="none" stroke="#38bdf8" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M520 552l54-204" stroke="#f59e0b" stroke-width="24" stroke-linecap="round"/>
+  <rect x="160" y="628" width="180" height="52" rx="14" fill="#34d399"/>
+  <rect x="372" y="628" width="168" height="52" rx="14" fill="#202527" stroke="#343b3f" stroke-width="3"/>
+  <path d="M190 654h116M402 654h108" stroke="#101112" stroke-width="12" stroke-linecap="round"/>
+  <path d="M402 654h108" stroke="#f4f0e8" stroke-width="12" stroke-linecap="round"/>
+</svg>

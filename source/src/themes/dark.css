@@ -1,0 +1,5 @@
+.theme-dark{--color-bg:#161413;--color-bg-soft:#211e1b;--color-surface:#231f1d;--color-surface-strong:#302922;--color-text:#f4eee6;--color-muted:#b8aba0;--color-border:#f4eee629;--color-primary:#d3a45f;--color-secondary:#6fb18a;--color-accent:#a14648;--color-danger:#6f86b1;--shadow-card:0 28px 80px #00000057;--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark}
+.theme-dark:before{background:linear-gradient(90deg,#f4eee60b 1px,#0000 1px) 0 0/58px 58px,linear-gradient(#f4eee60b 1px,#0000 1px) 0 0/58px 58px,linear-gradient(120deg,#161413,#211e1b)}
+.theme-dark:after{background:repeating-linear-gradient(135deg,#0000 0 12px,#d3a45f0f 13px 14px)}
+.theme-dark .home-content h1{color:var(--color-primary)}
+.theme-dark .profile-visual{border-color:color-mix(in srgb, var(--color-primary) 42%, var(--color-border))}
