@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/copy-assets.mjs",
     "preview": "vite preview",
     "build:5ation": "node scripts/build-site.mjs 5ation-shop",
     "build:5ge": "node scripts/build-site.mjs 5ge-store",
